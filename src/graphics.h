@@ -1,0 +1,15 @@
+void game();
+void change_color();
+void draw_array();
+extern DIALOG main_dialog[];
+extern DIALOG boxes[];
+extern MENU child[];
+extern MENU text_menu[];
+extern MENU game_menu[];
+extern MENU main_menu[];
+BITMAP *bmp;
+int quitter();
+int boom();
+BITMAP *buffer;
+BITMAP *bc_buffer;
+//char name[3];
